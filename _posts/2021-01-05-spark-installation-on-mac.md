@@ -19,10 +19,13 @@ brew install scala
 brew install apache-spark
 ```
 # Install Python & libs
+
 > It is assumed Anacaonda is installed along with Python3
+
 ```bash
 conda install pyspark
 ```
+
 # Setup env
 ```bash
 echo "export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/"  >> ~/.zshrc
@@ -36,6 +39,7 @@ echo "export PYSPARK_DRIVER_PYTHON=jupyter"  >> ~/.zshrc
 echo "export PYSPARK_DRIVER_PYTHON_OPTS='notebook'"  >> ~/.zshrc
 source ~/.zshrc
 ```
+
 # Verify installation
 Launch `pyspark` from the directory containing iPython notebook
 ```bash
